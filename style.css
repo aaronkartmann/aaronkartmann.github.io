@@ -245,6 +245,14 @@ section{
 .grid-card:hover .expand-indicator{
     color: rgba(255, 255, 255, 0.7)
 }
+.grid-card:hover .btn{
+    border-color: white;
+    color: white;
+}
+.grid-card .btn:hover{
+    background-color: white;
+    color: black;
+}
 .projects-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(420px,1fr));
