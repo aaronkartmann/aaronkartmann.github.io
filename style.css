@@ -302,7 +302,7 @@ section{
     gap: 2rem;
     margin-top: 5rem;
 }
-.input-box h3{
+.input-box p{
     font-size: 2rem;
     font-weight: 500;
 }
@@ -388,7 +388,10 @@ footer ul li a{
         padding-left: 6rem;
     }
     .input-box i{
-        font-size: 2.75rem;
+        font-size: 1.8rem;
+    }
+    .input-box p{
+        font-size: 1.8rem;
     }
 }
 @media(max-width:786px){
@@ -410,7 +413,7 @@ footer ul li a{
         width: 100%;
         font-size: 1.6rem;
     }
-    .input-box i{
+    .input i{
         display: none;
     }
     .grid{
@@ -418,6 +421,12 @@ footer ul li a{
     }
     .background-info img{
         width: 70vw;
+    }
+    .input-box p{
+        font-size: 1.6rem;
+    }
+    .input-box p i{
+        font-size: 1.6rem;
     }
 }
 @media(max-width:600px){
@@ -468,5 +477,11 @@ footer ul li a{
     }
     footer ul{
         gap: 1rem;
+    }
+    .input-box p{
+        font-size: 1.4rem;
+    }
+    .input-box p i{
+        font-size: 1.4rem;
     }
 }
